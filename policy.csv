@@ -1,0 +1,7 @@
+p, admin, /data1, read, allow
+p, admin, /data1, write, allow
+p, user, /data1, read, allow
+p, user, /data1, write, deny
+
+g, alice, admin
+g, bob, user
